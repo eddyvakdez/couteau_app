@@ -1,0 +1,36 @@
+name: couteau_app
+description: Aplicación de herramientas múltiples
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  cupertino_icons: ^1.0.2
+  audioplayers: ^5.2.1  # Para sonidos de Pokémon
+  url_launcher: ^6.2.2  # Para abrir enlaces
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/flutter_news.jpeg
+    - assets/images/mobile_news.jpeg
+    - assets/images/ai_news.jpeg
+    - assets/images/my_photo.jpg
+    - assets/images/toolbox.jpeg
+    - assets/images/adulto.png
+    - assets/images/anciano.png
+    - assets/images/joven.png
+    - assets/images/news_placeholder.png
+    - assets/icons/my_photo.jpg
